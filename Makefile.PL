@@ -57,7 +57,7 @@ sub check_scalar_util {
 	};
 	if ( $@ ) {
 		# Scalar::Util not installed (really old Perl?)
-		requires 'Scalar::Util' => '1.14';
+		requires 'Scalar::Util' => '1.24';
 		return;
 	}
 
@@ -75,11 +75,11 @@ sub check_scalar_util {
 	# Scalar::Util, or a broken one.
 	if ( $module_version <= 1.01 ) {
 		# Very old Scalar::Util, upgrade it
-		requires 'Scalar::Util' => '1.14';
+		requires 'Scalar::Util' => '1.24';
 		return;
 	}
 
-	my $latest_scalar_util = 1.21;
+	my $latest_scalar_util = 1.24;
         
 	# Broken Scalar::Util
 	# That is, it does NOT contain the weaken function
