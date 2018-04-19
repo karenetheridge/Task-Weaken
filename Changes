@@ -1,6 +1,8 @@
 Revision history for Task-Weaken
 
 {{$NEXT}}
+        - merge last commits from adamk's svn repository, which bump the
+          minimum version of Scalar::Util in some cases (PR#1)
 
 1.05      2017-12-21 01:10:56Z
         - switch packaging to Dist::Zilla
