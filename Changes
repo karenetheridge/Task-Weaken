@@ -1,5 +1,7 @@
 Revision history for Task-Weaken
 
+{{$NEXT}}
+
 1.06      2018-04-19 15:27:23Z
         - merge last commits from adamk's svn repository, which bump the
           minimum version of Scalar::Util in some cases (PR#1)
